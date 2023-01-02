@@ -1,0 +1,52 @@
+html,
+body{
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+main{
+  width: 100%;
+}
+
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+}
+
+svg{
+  position: fixed;
+  height: calc(max(100vh, 100vw) * 6);
+  width: calc(max(100vh, 100vw) * 6);
+  bottom: 100%;
+}
+
+#path-left {
+  stroke-width: 80px;
+  stroke: black;
+  fill: black;
+  transform: translateX(-16px);
+}
+
+#path-right {
+  fill: black;
+  transform: translateX(16px);
+}
+
+text{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  stroke: rgba(255, 255, 255, 0.6);
+  stroke-width: 1px;
+}
